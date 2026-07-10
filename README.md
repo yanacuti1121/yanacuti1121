@@ -21,10 +21,11 @@
 
 | | |
 |---|---|
-| Skills | **3,438** |
+| Skills | **2,013** |
 | Agents | **101** |
-| Version | **v0.42.0** |
-| Hooks | **46** |
+| Version | **v0.43.2** |
+| Rules | **71** |
+| Hooks | **57** |
 
 Core: prompt injection protection, runtime safety gates, scope validation, emotion journals + identity for all 101 agents.
 
