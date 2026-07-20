@@ -35,7 +35,7 @@ Core: prompt injection protection, runtime safety gates, scope validation, emoti
 
 | Project | URL | Description |
 |---------|-----|-------------|
-| 🤖 Yana Web | [yanai-production.up.railway.app](https://yanai-production.up.railway.app) | AI chat UI · skill routing · multi-provider |
+| 🤖 Yana AI app destop | [app destop](https://yanacuti1121.github.io/Yana-AI/desktop.html) |App AI chat UI · skill routing · multi-provider |
 | 📚 Yana AI Docs | [yanacuti1121.github.io/Yana-AI](https://yanacuti1121.github.io/Yana-AI/) | Full documentation · marketplace · install guide |
 | 🧩 CodexMate | [sakurabytecore.github.io/codexmate](https://sakurabytecore.github.io/codexmate/) | Unified dashboard for AI coding tools |
 | 🌐 Portfolio | [yanacuti1121.github.io/itro](https://yanacuti1121.github.io/itro/) | Personal intro page |
