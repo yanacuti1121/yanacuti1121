@@ -1,4 +1,4 @@
-<h1 align="center">Vũ Văn Tâm (Yana) 👋</h1>
+<h1 align="center">Vũ Văn Tâm (Yana) Xin Chào</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&center=true&vCenter=true&width=750&lines=Creator+of+Yana+AI;3%2C438+skills+%C2%B7+101+agents;Agent+OS+%C2%B7+Runtime+Safety+%C2%B7+Orchestration;Routing+%C2%B7+Safety+%C2%B7+Context" />
@@ -11,7 +11,7 @@
 - 🇻🇳 Vietnamese · 17 y/o · 📍 South Korea
 - 🤖 Building **[Yana AI](https://github.com/yanacuti1121/Yana-AI)** — Personal Agent OS for AI coding agents
 - 🦀 Rust for performance-critical systems
-- 🎓 Also: **JNMT** (620k lines · 55 deployments) · **Yana Web** · **CodexMate**
+- 🎓 Also: **JNMT** (620k lines · 55 deployments) · **Yana AI** · **CodexMate**
 
 ---
 
@@ -21,11 +21,11 @@
 
 | | |
 |---|---|
-| Skills | **2,013** |
+| Skills | **2020** |
 | Agents | **101** |
 | Version | **v0.43.2** |
 | Rules | **71** |
-| Hooks | **57** |
+| Hooks | **60** |
 
 Core: prompt injection protection, runtime safety gates, scope validation, emotion journals + identity for all 101 agents.
 
