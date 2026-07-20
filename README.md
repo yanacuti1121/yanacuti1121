@@ -69,20 +69,6 @@ Core: prompt injection protection, runtime safety gates, scope validation, emoti
 
 ---
 
-## Stats
-
-<p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=yanacuti1121&show_icons=true&theme=dark&hide_border=true&include_all_commits=true" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yanacuti1121&layout=compact&theme=dark&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=yanacuti1121&theme=dark&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yanacuti1121&theme=radical&no-frame=true&margin-w=4" />
-</p>
-
----
 
 ## Philosophy
 
