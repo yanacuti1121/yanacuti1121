@@ -105,6 +105,11 @@ Yana AI is built on top of ideas, patterns, and tooling from the open-source com
 
 ----
 
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@.yana018)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:phamlongh230@gmail.com)
-[![Views](https://komarev.com/ghpvc/?username=yanacuti1121&color=blue&style=flat-square)](https://visitcount.itsvg.in)
+| | |
+|---|---|
+| Email | phamlongh230@gmail.com |
+| Website | [yanacuti1121.github.io/Yana-AI](https://yanacuti1121.github.io/Yana-AI/) |
+| GitHub | [yanacuti1121/Yana-AI](https://github.com/yanacuti1121/Yana-AI) |
+| Yana | [Tik Tok](https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@.yana018) |
+
+---
