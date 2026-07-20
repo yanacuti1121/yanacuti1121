@@ -39,7 +39,7 @@ Core: prompt injection protection, runtime safety gates, scope validation, emoti
 | 📚 Yana AI Docs | [yanacuti1121.github.io/Yana-AI](https://yanacuti1121.github.io/Yana-AI/) | Full documentation · marketplace · install guide |
 | 🧩 CodexMate | [sakurabytecore.github.io/codexmate](https://sakurabytecore.github.io/codexmate/) | Unified dashboard for AI coding tools |
 | 🌐 Portfolio | [yanacuti1121.github.io/itro](https://yanacuti1121.github.io/itro/) | Personal intro page |
-| 🤖 GitHub App | [github.com/apps/yana-ai](https://github.com/apps/yana-ai) | Install Yana AI on any repo |
+| 🤖 GitHub App | [github.com/apps/yana-ai](https://github.com/apps/yana-ai-bot) | Install Yana AI on any repo |
 
 ---
 
