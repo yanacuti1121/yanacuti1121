@@ -110,7 +110,7 @@ Yana AI is built on top of ideas, patterns, and tooling from the open-source com
 | Email | phamlongh230@gmail.com |
 | Website | [yanacuti1121.github.io/Yana-AI](https://yanacuti1121.github.io/Yana-AI/) |
 | GitHub | [yanacuti1121/Yana-AI](https://github.com/yanacuti1121/Yana-AI) |
-| Tik Tok | [https://www.tiktok.com/@.yana018](https://www.tiktok.com/@.yana018)] |
+| Tik Tok | [https://www.tiktok.com/@.yana018](https://www.tiktok.com/@.yana018) |
 | App destop | [https://yanacuti1121.github.io/Yana-AI/desktop.html](https://yanacuti1121.github.io/Yana-AI/desktop.html) |
 
 ---
