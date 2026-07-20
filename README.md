@@ -17,6 +17,25 @@
 
 ## Yana AI
 
+```
+$ yana-ai
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                            │
+│   ██╗   ██╗ █████╗ ███╗   ██╗ █████╗     █████╗ ██╗                                                                                       │
+│   ╚██╗ ██╔╝██╔══██╗████╗  ██║██╔══██╗   ██╔══██╗██║                                                                                       │
+│    ╚████╔╝ ███████║██╔██╗ ██║███████║   ███████║██║                                                                                       │
+│     ╚██╔╝  ██╔══██║██║╚██╗██║██╔══██║   ██╔══██║██║                                                                                       │
+│      ██║   ██║  ██║██║ ╚████║██║  ██║   ██║  ██║██║                                                                                       │
+│      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝  ╚═╝╚═╝                                                                                       │
+│                                                                                                                                            │
+│ v0.43.2 · Safety firewall for AI coding agents │ Tips for getting started                                                                   │
+│ 101 agents · 2,016 skills                      │ yana-ai doctor                                                                             │
+│ 71 rules · 58 hooks · 108 scripts              │ yana-ai init                                                                               │
+│ 170 commands                                   │                                                                                           │
+│                                                 │ What's new                                                                                │
+│                                                 │ v0.43.2 — Ollama model-id fix, entry-point verify law                                     │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
 > _Personal Agent OS — Routing · Safety · Orchestration · Context_
 
 | | |
@@ -79,6 +98,12 @@ Build > Talk   ·   Ship > Promise   ·   Verify > Assume
 > Build quietly. Let the results speak.
 
 ---
+
+## Acknowledgements
+
+Yana AI is built on top of ideas, patterns, and tooling from the open-source community, including projects licensed under Apache 2.0, MIT, and other permissive licenses. All third-party sources are used in compliance with their respective licenses. This project has no intent to copy, misrepresent, or infringe upon the intellectual property of any individual or organization. Where specific projects have directly influenced design decisions, they are credited in the relevant source files and rule documentation.
+
+----
 
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white)](https://www.tiktok.com/@.yana018)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:phamlongh230@gmail.com)
