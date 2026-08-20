@@ -19,21 +19,46 @@
 
 ---
 
-## Xin chào — I’m Vũ Văn Tâm
+## The human behind Yana AI
 
-I am a Vietnamese developer based in South Korea and the person behind **Yana AI**.
+I’m **Vũ Văn Tâm**, a Vietnamese developer based in South Korea. I began building the system that became Yana AI when I was 17.
 
-I started this system as a collection of files and personal automation rules under the name **YAMTAM**. It grew into a cross-platform AI runtime, governance layer, terminal workspace, desktop application, memory system, and operating plane for AI agents. I design and maintain that system in public.
+Yana did not begin as a startup pitch or a polished application. It began as files on my own computer: Claude Code configurations, safety rules, prompts, hooks, and automation experiments that I used to make AI-assisted development more reliable. That early system was called **YAMTAM ENGINE**.
 
-My role in Yana AI is not limited to writing code:
+As I used it, the problem became larger than configuration. Different models and coding agents could write code, but they did not share one runtime, one capability boundary, one memory model, or one definition of when a human must take control. The files became a scaffold; the scaffold became a runtime; the runtime became Yana AI.
 
-| Product direction | System architecture | Engineering | Human governance |
-|---|---|---|---|
-| I decide what Yana should become and which problems it should refuse to solve. | I shape the boundaries between `yana-rt`, providers, adapters, capabilities, memory, Yana OS, and agent interfaces. | I build, review, test, release, investigate failures, and maintain the project across Rust, Python, Shell, and JavaScript. | I remain the final authority for destructive actions, releases, security trade-offs, and changes that affect user control. |
+| At a glance | |
+|---|---|
+| **Background** | Vietnamese builder living in South Korea |
+| **Project** | Creator and primary maintainer of [Yana AI](https://github.com/yanacuti1121/Yana-AI) |
+| **Role** | Product direction, system architecture, implementation, operations, release decisions, and final human governance |
+| **Core focus** | Native runtimes, local AI, agent safety, automation, memory, orchestration, and cross-platform systems |
+| **Working model** | Human-directed, AI-assisted, evidence-driven engineering |
 
-I work with Claude, Codex, Gemini, local models, and specialist agents as engineering collaborators. They help implement, review, test, and challenge decisions; they do not replace project ownership or human responsibility. AI-authored work is credited in Git history whenever possible.
+I work with Claude, Codex, Gemini, local models, and specialist agents as engineering collaborators. They help implement, review, test, and challenge decisions. I do not hide that collaboration, and I do not transfer responsibility to it: authorship is credited where possible, while architecture, risk acceptance, release authority, and the project’s direction remain human decisions.
 
 > **My job is to make AI more capable without quietly making the human less in control.**
+
+---
+
+## From YAMTAM to Yana AI
+
+The project has two histories: the code existed locally before this GitHub repository, and the public Git history begins later. I keep that distinction visible instead of turning uncertain dates into marketing facts.
+
+| Date | Milestone | Evidence |
+|---|---|---|
+| **05 May 2026** | The name **YAMTAM ENGINE** reportedly appeared on an earlier local ZIP artifact. | Recorded as my account of the project’s genesis; the original artifact has not yet been independently re-verified. See the [lineage record](https://github.com/yanacuti1121/Yana-AI/blob/main/docs/history/LINEAGE.md). |
+| **16 May 2026** | The earliest independently verified embedded Git commit, `scaffold baseline`, appears inside a preserved YAMTAM scaffold ZIP. | Verified from the archive’s embedded `.git` history and checksum, documented in the [lineage record](https://github.com/yanacuti1121/Yana-AI/blob/main/docs/history/LINEAGE.md). |
+| **17 May 2026** | The surviving public repository history begins. YAMTAM runtime assets, Truth Gate, drift checking, memory, scope protection, Action Gate, and release tooling start entering the repository. | Verified directly from the [public repository history](https://github.com/yanacuti1121/Yana-AI/commits/main/). |
+| **Today** | Yana is a local-first Rust runtime, project governance layer, terminal workspace, desktop app, adapter system, memory and evidence stack, Yana OS foundation, and open-source engineering project. | Implementations, tests, releases, architecture reports, and known limitations remain public in the main repository. |
+
+The reported lineage is:
+
+```text
+Claude Code configurations → GitNexus experiments → YAMTAM ENGINE → Yana AI
+```
+
+This history matters because Yana was not invented all at once. It grew from repeated failures, real CI breakage, unsafe automation, duplicated runtimes, stale documentation, packaging mistakes, and the need to distinguish “a file exists” from “a capability is genuinely wired and usable.”
 
 ---
 
@@ -44,7 +69,7 @@ I work with Claude, Codex, Gemini, local models, and specialist agents as engine
 <p align="center"><em>Build with AI. Govern what it builds.</em></p>
 
 <p align="center">
-  <img src="assets/yana-ai-key-visual.png" alt="Yana AI — Control, Verify, Protect" width="640" />
+  <img src="assets/yana-ai-key-visual.png" alt="Yana AI — Control, Verify, Protect" width="680" />
 </p>
 
 Yana AI is a **local-first, cross-platform control and runtime system for AI**. It connects local models, cloud models, coding agents, project tools, memory, and automation to one native execution layer while keeping deterministic policy and human authority in the path.
