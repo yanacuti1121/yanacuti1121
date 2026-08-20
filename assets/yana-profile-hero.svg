@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
   <title id="title">Vũ Văn Tâm — creator of Yana AI</title>
-  <desc id="desc">A rose-aurora liquid-glass banner introducing Vũ Văn Tâm as creator, system architect, and human governor of Yana AI.</desc>
+  <desc id="desc">An azure-aurora liquid-glass banner introducing Vũ Văn Tâm as creator, system architect, and human governor of Yana AI.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#100817"/>
-      <stop offset="0.48" stop-color="#19112e"/>
+      <stop offset="0.48" stop-color="#0b1a2e"/>
       <stop offset="1" stop-color="#071d2a"/>
     </linearGradient>
     <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff7ab6"/>
-      <stop offset="0.33" stop-color="#c084fc"/>
-      <stop offset="0.68" stop-color="#67e8f9"/>
-      <stop offset="1" stop-color="#fbbf24"/>
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.33" stop-color="#38bdf8"/>
+      <stop offset="0.68" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
     </linearGradient>
     <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0.19"/>
@@ -19,20 +19,20 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0.1"/>
     </linearGradient>
     <radialGradient id="roseGlow">
-      <stop offset="0" stop-color="#ff5fa2" stop-opacity="0.72"/>
-      <stop offset="1" stop-color="#ff5fa2" stop-opacity="0"/>
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="violetGlow">
-      <stop offset="0" stop-color="#a855f7" stop-opacity="0.58"/>
-      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="cyanGlow">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.48"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0284c7" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#0284c7" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="goldGlow">
-      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.32"/>
-      <stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1d4ed8" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
     </radialGradient>
     <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
     <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
@@ -45,31 +45,31 @@
   <circle cx="922" cy="54" r="210" fill="url(#violetGlow)" filter="url(#blur)"/>
   <circle cx="1040" cy="350" r="210" fill="url(#cyanGlow)" filter="url(#blur)"/>
   <circle cx="462" cy="438" r="180" fill="url(#goldGlow)" filter="url(#blur)"/>
-  <path d="M0 345 C210 275 330 450 555 350 S930 250 1200 345 V430 H0Z" fill="#ff7ab6" opacity="0.035"/>
+  <path d="M0 345 C210 275 330 450 555 350 S930 250 1200 345 V430 H0Z" fill="#7dd3fc" opacity="0.035"/>
   <path d="M0 376 C190 315 390 456 600 377 S1010 310 1200 382" fill="none" stroke="url(#spectrum)" stroke-width="2" opacity="0.32"/>
 
   <rect x="42" y="36" width="1116" height="358" rx="38" fill="url(#glass)" stroke="url(#spectrum)" stroke-opacity="0.7" filter="url(#shadow)"/>
   <path d="M78 62 H1122" stroke="#ffffff" stroke-opacity="0.22" stroke-linecap="round"/>
-  <circle cx="88" cy="82" r="5" fill="#ff7ab6"/>
-  <circle cx="108" cy="82" r="5" fill="#c084fc"/>
-  <circle cx="128" cy="82" r="5" fill="#67e8f9"/>
-  <text x="1102" y="88" text-anchor="end" fill="#f5e9ff" opacity="0.76" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">VIETNAM · SOUTH KOREA</text>
+  <circle cx="88" cy="82" r="5" fill="#7dd3fc"/>
+  <circle cx="108" cy="82" r="5" fill="#38bdf8"/>
+  <circle cx="128" cy="82" r="5" fill="#0ea5e9"/>
+  <text x="1102" y="88" text-anchor="end" fill="#e5f2ff" opacity="0.76" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">VIETNAM · SOUTH KOREA</text>
 
   <text x="86" y="154" fill="#fff7fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1">VŨ VĂN TÂM</text>
-  <text x="88" y="190" fill="#dfd5e8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="3">CREATOR · SYSTEM ARCHITECT · HUMAN GOVERNOR</text>
+  <text x="88" y="190" fill="#dbeafe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="3">CREATOR · SYSTEM ARCHITECT · HUMAN GOVERNOR</text>
 
   <text x="86" y="276" fill="url(#spectrum)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="900" letter-spacing="4">YANA AI</text>
-  <text x="90" y="316" fill="#f3e8ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">One runtime. Any AI. Human-governed.</text>
+  <text x="90" y="316" fill="#e5f2ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">One runtime. Any AI. Human-governed.</text>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">
-    <rect x="88" y="344" width="130" height="30" rx="15" fill="#ff7ab6" fill-opacity="0.14" stroke="#ff7ab6" stroke-opacity="0.52"/>
-    <text x="153" y="364" text-anchor="middle" fill="#ffb4d5">LOCAL-FIRST</text>
-    <rect x="230" y="344" width="122" height="30" rx="15" fill="#c084fc" fill-opacity="0.14" stroke="#c084fc" stroke-opacity="0.5"/>
-    <text x="291" y="364" text-anchor="middle" fill="#d8b4fe">RUST CORE</text>
-    <rect x="364" y="344" width="222" height="30" rx="15" fill="#67e8f9" fill-opacity="0.11" stroke="#67e8f9" stroke-opacity="0.46"/>
-    <text x="475" y="364" text-anchor="middle" fill="#a5f3fc">MAC · LINUX · WINDOWS</text>
-    <rect x="598" y="344" width="135" height="30" rx="15" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-opacity="0.42"/>
-    <text x="665" y="364" text-anchor="middle" fill="#fde68a">OPEN SOURCE</text>
+    <rect x="88" y="344" width="130" height="30" rx="15" fill="#7dd3fc" fill-opacity="0.14" stroke="#7dd3fc" stroke-opacity="0.52"/>
+    <text x="153" y="364" text-anchor="middle" fill="#bae6fd">LOCAL-FIRST</text>
+    <rect x="230" y="344" width="122" height="30" rx="15" fill="#38bdf8" fill-opacity="0.14" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="291" y="364" text-anchor="middle" fill="#93c5fd">RUST CORE</text>
+    <rect x="364" y="344" width="222" height="30" rx="15" fill="#0ea5e9" fill-opacity="0.11" stroke="#0ea5e9" stroke-opacity="0.46"/>
+    <text x="475" y="364" text-anchor="middle" fill="#7dd3fc">MAC · LINUX · WINDOWS</text>
+    <rect x="598" y="344" width="135" height="30" rx="15" fill="#1d4ed8" fill-opacity="0.1" stroke="#1d4ed8" stroke-opacity="0.42"/>
+    <text x="665" y="364" text-anchor="middle" fill="#bfdbfe">OPEN SOURCE</text>
   </g>
 
   <g transform="translate(955 218)" opacity="0.94">
@@ -78,6 +78,6 @@
     <circle cx="-17" cy="1" r="4" fill="#fff7fb"/>
     <circle cx="17" cy="1" r="4" fill="#fff7fb"/>
     <path d="M-11 22 Q0 30 11 22" fill="none" stroke="#fff7fb" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="0" cy="0" r="68" fill="none" stroke="#ff7ab6" stroke-opacity="0.2"/>
+    <circle cx="0" cy="0" r="68" fill="none" stroke="#7dd3fc" stroke-opacity="0.2"/>
   </g>
 </svg>

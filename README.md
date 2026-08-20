@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yanacuti1121/Yana-AI/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/yanacuti1121/Yana-AI/ci.yml?branch=main&style=flat-square&label=Yana%20CI&color=ff7ab6" alt="Yana AI CI" /></a>
-  <a href="https://crates.io/crates/yana-rt"><img src="https://img.shields.io/crates/v/yana-rt?style=flat-square&logo=rust&color=c084fc" alt="yana-rt on crates.io" /></a>
-  <a href="https://pypi.org/project/yana-ai/"><img src="https://img.shields.io/pypi/v/yana-ai?style=flat-square&logo=pypi&color=22d3ee" alt="yana-ai on PyPI" /></a>
-  <a href="https://github.com/yanacuti1121/Yana-AI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-fbbf24?style=flat-square" alt="Apache 2.0 license" /></a>
+  <a href="https://github.com/yanacuti1121/Yana-AI/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/yanacuti1121/Yana-AI/ci.yml?branch=main&style=flat-square&label=Yana%20CI&color=7dd3fc" alt="Yana AI CI" /></a>
+  <a href="https://crates.io/crates/yana-rt"><img src="https://img.shields.io/crates/v/yana-rt?style=flat-square&logo=rust&color=38bdf8" alt="yana-rt on crates.io" /></a>
+  <a href="https://pypi.org/project/yana-ai/"><img src="https://img.shields.io/pypi/v/yana-ai?style=flat-square&logo=pypi&color=0284c7" alt="yana-ai on PyPI" /></a>
+  <a href="https://github.com/yanacuti1121/Yana-AI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-1d4ed8?style=flat-square" alt="Apache 2.0 license" /></a>
 </p>
 
 ---
@@ -236,10 +236,10 @@ I use AI heavily, but I do not treat AI output as truth. My workflow emphasizes:
 
 <p>
   <img src="https://img.shields.io/badge/Rust-160b24?style=for-the-badge&logo=rust&logoColor=fff7fb" alt="Rust" />
-  <img src="https://img.shields.io/badge/Python-ff7ab6?style=for-the-badge&logo=python&logoColor=160b24" alt="Python" />
-  <img src="https://img.shields.io/badge/Shell-c084fc?style=for-the-badge&logo=gnu-bash&logoColor=ffffff" alt="Shell" />
-  <img src="https://img.shields.io/badge/JavaScript-fbbf24?style=for-the-badge&logo=javascript&logoColor=160b24" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-67e8f9?style=for-the-badge&logo=typescript&logoColor=160b24" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-7dd3fc?style=for-the-badge&logo=python&logoColor=160b24" alt="Python" />
+  <img src="https://img.shields.io/badge/Shell-38bdf8?style=for-the-badge&logo=gnu-bash&logoColor=ffffff" alt="Shell" />
+  <img src="https://img.shields.io/badge/JavaScript-1d4ed8?style=for-the-badge&logo=javascript&logoColor=160b24" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-0ea5e9?style=for-the-badge&logo=typescript&logoColor=160b24" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Electron-a78bfa?style=for-the-badge&logo=electron&logoColor=ffffff" alt="Electron" />
 </p>
 
@@ -254,9 +254,9 @@ Yana AI learns from open-source projects, research, runtime patterns, and real o
 Contributions are welcome—especially from people interested in Rust runtimes, local AI, terminal interfaces, cross-platform systems, safety engineering, reproducible releases, and human-centered automation.
 
 <p align="center">
-  <a href="https://github.com/yanacuti1121/Yana-AI/issues"><img src="https://img.shields.io/badge/Open_an_issue-ff7ab6?style=for-the-badge&logo=github&logoColor=160b24" alt="Open an issue" /></a>
-  <a href="https://github.com/yanacuti1121/Yana-AI/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-c084fc?style=for-the-badge&logo=git&logoColor=ffffff" alt="Contribute" /></a>
-  <a href="https://github.com/sponsors/yanacuti1121"><img src="https://img.shields.io/badge/Sponsor-67e8f9?style=for-the-badge&logo=githubsponsors&logoColor=160b24" alt="Sponsor" /></a>
+  <a href="https://github.com/yanacuti1121/Yana-AI/issues"><img src="https://img.shields.io/badge/Open_an_issue-7dd3fc?style=for-the-badge&logo=github&logoColor=160b24" alt="Open an issue" /></a>
+  <a href="https://github.com/yanacuti1121/Yana-AI/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-38bdf8?style=for-the-badge&logo=git&logoColor=ffffff" alt="Contribute" /></a>
+  <a href="https://github.com/sponsors/yanacuti1121"><img src="https://img.shields.io/badge/Sponsor-0ea5e9?style=for-the-badge&logo=githubsponsors&logoColor=160b24" alt="Sponsor" /></a>
 </p>
 
 ---
