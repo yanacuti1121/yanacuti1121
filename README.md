@@ -110,7 +110,7 @@ Yana turns those questions into runtime behavior rather than policy text alone.
 - A Rust runtime with native chat, streaming, cancellation, sessions, routing, missions, capabilities, health, workspace, and OS surfaces.
 - Local model paths for Ollama, LM Studio, llama.cpp, and compatible local endpoints, alongside cloud-provider integrations.
 - Project adapters for Claude Code, Codex, Cursor, and Antigravity.
-- More than **2,000 skills**, **100 specialist agents**, **170 commands**, and **60 deterministic hooks** maintained from canonical sources.
+- **2,025 skills**, **103 specialist agents**, **170 commands**, and **63 deterministic hooks** maintained from canonical sources.
 - A multi-platform Electron desktop application and a Rust terminal chat experience connected to the same runtime direction.
 - Project memory, evidence, audit, integrity, quarantine, and human approval mechanisms.
 - Cross-platform work targeting macOS, Linux, and Windows.
