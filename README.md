@@ -270,6 +270,7 @@ Contributions are welcome—especially from people interested in Rust runtimes, 
 | Personal site | [me.vutam.link](https://me.vutam.link) |
 | Website | [Yana AI Documentation](https://yanacuti1121.github.io/Yana-AI/) |
 | TikTok | [@yana018](https://www.tiktok.com/@.yana018) |
+| Facebook | [vutam1810](https://www.facebook.com/vutam1810) |
 
 <p align="center">
   <strong>Your AI can act. But who decides how far it can go?</strong><br />
