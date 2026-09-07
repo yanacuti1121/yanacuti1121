@@ -267,6 +267,7 @@ Contributions are welcome—especially from people interested in Rust runtimes, 
 |---|---|
 | GitHub | [@yanacuti1121](https://github.com/yanacuti1121) |
 | Email | [phamlongh230@gmail.com](mailto:phamlongh230@gmail.com) |
+| Personal site | [me.vutam.link](https://me.vutam.link) |
 | Website | [Yana AI Documentation](https://yanacuti1121.github.io/Yana-AI/) |
 | TikTok | [@yana018](https://www.tiktok.com/@.yana018) |
 
