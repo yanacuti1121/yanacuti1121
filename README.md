@@ -237,10 +237,15 @@ I use AI heavily, but I do not treat AI output as truth. My workflow emphasizes:
 <p>
   <img src="https://img.shields.io/badge/Rust-160b24?style=for-the-badge&logo=rust&logoColor=fff7fb" alt="Rust" />
   <img src="https://img.shields.io/badge/Python-7dd3fc?style=for-the-badge&logo=python&logoColor=160b24" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-0f172a?style=for-the-badge&logo=cplusplus&logoColor=7dd3fc" alt="C++" />
+  <img src="https://img.shields.io/badge/C%23-512bd4?style=for-the-badge&logo=dotnet&logoColor=ffffff" alt="C#" />
   <img src="https://img.shields.io/badge/Shell-38bdf8?style=for-the-badge&logo=gnu-bash&logoColor=ffffff" alt="Shell" />
-  <img src="https://img.shields.io/badge/JavaScript-1d4ed8?style=for-the-badge&logo=javascript&logoColor=160b24" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/JavaScript-1d4ed8?style=for-the-badge&logo=javascript&logoColor=ffffff" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-0ea5e9?style=for-the-badge&logo=typescript&logoColor=160b24" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/HTML5-f97316?style=for-the-badge&logo=html5&logoColor=ffffff" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-2563eb?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS3" />
   <img src="https://img.shields.io/badge/Electron-a78bfa?style=for-the-badge&logo=electron&logoColor=ffffff" alt="Electron" />
+  <img src="https://img.shields.io/badge/Docker-0284c7?style=for-the-badge&logo=docker&logoColor=ffffff" alt="Docker" />
 </p>
 
 My strongest interest is not a single language. It is the boundary between **AI intelligence, native systems, developer tools, automation, and human control**.
