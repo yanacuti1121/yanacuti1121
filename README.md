@@ -243,7 +243,7 @@ I use AI heavily, but I do not treat AI output as truth. My workflow emphasizes:
   <img src="https://img.shields.io/badge/JavaScript-1d4ed8?style=for-the-badge&logo=javascript&logoColor=ffffff" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-0ea5e9?style=for-the-badge&logo=typescript&logoColor=160b24" alt="TypeScript" />
   <img src="https://img.shields.io/badge/HTML5-f97316?style=for-the-badge&logo=html5&logoColor=ffffff" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-2563eb?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS3" />
+  <img src="https://img.shields.io/badge/CSS3-2563eb?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS" />
   <img src="https://img.shields.io/badge/Electron-a78bfa?style=for-the-badge&logo=electron&logoColor=ffffff" alt="Electron" />
   <img src="https://img.shields.io/badge/Docker-0284c7?style=for-the-badge&logo=docker&logoColor=ffffff" alt="Docker" />
 </p>
