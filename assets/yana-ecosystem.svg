@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Yana AI Ecosystem Architecture</title>
+  <desc id="desc">Figure 2 from the Yana AI First Public Report: Agent Hosts and Yana Applications converge on the native Rust runtime (yana-rt), wrapped by deterministic Governance and assisted by a non-privileged Knowledge layer, talking to 19 model providers.</desc>
+  <defs>
+    <linearGradient id="bgEco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#eef4fc"/>
+    </linearGradient>
+    <linearGradient id="rtFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <filter id="cardDrop" x="-8%" y="-12%" width="116%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Canvas -->
+  <rect width="1200" height="680" rx="28" fill="url(#bgEco)" stroke="#d6e1ef" stroke-width="1.5"/>
+
+  <!-- Header & Legend -->
+  <g font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="40" y="42" fill="#17181c" font-size="19" font-weight="900" letter-spacing="-0.3">FIGURE 2 · ECOSYSTEM ARCHITECTURE (AS OF 26 OCT 2026)</text>
+    <text x="40" y="62" fill="#5d6573" font-size="13" font-weight="600">External hosts and Yana surfaces share one Rust runtime (yana-rt). Governance bounds execution; Knowledge teaches without granting privilege.</text>
+
+    <!-- Legend Top Right -->
+    <g transform="translate(650, 26)" font-size="11.5" font-weight="700" fill="#334155">
+      <rect x="0" y="0" width="14" height="14" rx="4" fill="#eff6ff" stroke="#0284c7" stroke-width="2"/>
+      <text x="20" y="11">Active Runtime</text>
+
+      <rect x="118" y="0" width="14" height="14" rx="4" fill="#ffffff" stroke="#4f80ff" stroke-width="1.8" stroke-dasharray="3 2"/>
+      <text x="138" y="11">Governance Scope</text>
+
+      <rect x="256" y="0" width="14" height="14" rx="4" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+      <text x="276" y="11">In Development</text>
+
+      <rect x="378" y="0" width="14" height="14" rx="4" fill="#fff1f2" stroke="#e11d48" stroke-width="1.8"/>
+      <text x="398" y="11">Experimental</text>
+
+      <rect x="484" y="0" width="14" height="14" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+      <text x="504" y="11">Legacy</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 1: AGENT HOSTS & YANA APPLICATIONS ==================== -->
+  <!-- Left Panel: AGENT HOSTS · adapters/ -->
+  <g transform="translate(40, 82)" filter="url(#cardDrop)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="510" height="122" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="20" y="26" fill="#0f172a" font-size="12.5" font-weight="900" letter-spacing="1">AGENT HOSTS · adapters/</text>
+
+    <!-- 4 Host Cards -->
+    <g transform="translate(16, 38)">
+      <rect x="0" y="0" width="112" height="68" rx="12" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.5"/>
+      <text x="56" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="800">Claude Code</text>
+      <text x="56" y="42" text-anchor="middle" fill="#475569" font-size="10.5" font-weight="600">Intercepts all</text>
+      <text x="56" y="55" text-anchor="middle" fill="#0284c7" font-size="10.5" font-weight="700">tool calls live</text>
+    </g>
+    <g transform="translate(138, 38)">
+      <rect x="0" y="0" width="112" height="68" rx="12" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.5"/>
+      <text x="56" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="800">Codex</text>
+      <text x="56" y="42" text-anchor="middle" fill="#475569" font-size="10.5" font-weight="600">Project-scoped</text>
+      <text x="56" y="55" text-anchor="middle" fill="#0284c7" font-size="10.5" font-weight="700">runtime hooks</text>
+    </g>
+    <g transform="translate(260, 38)">
+      <rect x="0" y="0" width="112" height="68" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="56" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="800">Cursor</text>
+      <text x="56" y="42" text-anchor="middle" fill="#475569" font-size="10.5" font-weight="600">Filters shell cmds</text>
+      <text x="56" y="55" text-anchor="middle" fill="#64748b" font-size="10" font-weight="600">(MCP unfiltered)</text>
+    </g>
+    <g transform="translate(382, 38)">
+      <rect x="0" y="0" width="112" height="68" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="56" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="800">Antigravity</text>
+      <text x="56" y="42" text-anchor="middle" fill="#475569" font-size="10.5" font-weight="600">Filters shell cmds</text>
+      <text x="56" y="55" text-anchor="middle" fill="#0284c7" font-size="10.5" font-weight="700">via hook guard</text>
+    </g>
+  </g>
+
+  <!-- Right Panel: YANA APPLICATIONS · tools/ -->
+  <g transform="translate(570, 82)" filter="url(#cardDrop)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="590" height="122" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="20" y="26" fill="#0f172a" font-size="12.5" font-weight="900" letter-spacing="1">YANA APPLICATIONS · tools/</text>
+
+    <!-- Primary IDE -->
+    <g transform="translate(16, 38)">
+      <rect x="0" y="0" width="154" height="68" rx="12" fill="#eff6ff" stroke="#0284c7" stroke-width="2"/>
+      <text x="77" y="23" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="900">Yana Studio IDE 1.7</text>
+      <text x="77" y="41" text-anchor="middle" fill="#0369a1" font-size="10.5" font-weight="700">macOS · Code-OSS 1.141</text>
+      <text x="77" y="55" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">Primary Product</text>
+    </g>
+    <!-- CLI -->
+    <g transform="translate(180, 38)">
+      <rect x="0" y="0" width="118" height="68" rx="12" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.5"/>
+      <text x="59" y="23" text-anchor="middle" fill="#17181c" font-size="13" font-weight="800">CLI yana-ai</text>
+      <text x="59" y="41" text-anchor="middle" fill="#0284c7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700">pip install</text>
+      <text x="59" y="55" text-anchor="middle" fill="#475569" font-size="10" font-weight="600">yana-ai</text>
+    </g>
+    <!-- MCP Server -->
+    <g transform="translate(308, 38)">
+      <rect x="0" y="0" width="122" height="68" rx="12" fill="#f8fafc" stroke="#93c5fd" stroke-width="1.5"/>
+      <text x="61" y="23" text-anchor="middle" fill="#17181c" font-size="13" font-weight="800">MCP Server</text>
+      <text x="61" y="41" text-anchor="middle" fill="#475569" font-size="10.5" font-weight="600">14 governed tools</text>
+      <text x="61" y="55" text-anchor="middle" fill="#0284c7" font-size="10" font-weight="700">stdio · lease-gated</text>
+    </g>
+    <!-- Legacy Studio / Desktop -->
+    <g transform="translate(440, 38)">
+      <rect x="0" y="0" width="134" height="68" rx="12" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+      <text x="67" y="23" text-anchor="middle" fill="#475569" font-size="12" font-weight="800">Studio Electron 1.6</text>
+      <text x="67" y="40" text-anchor="middle" fill="#64748b" font-size="10" font-weight="600">IDE predecessor</text>
+      <text x="67" y="54" text-anchor="middle" fill="#64748b" font-size="10" font-weight="600">+ Desktop / Web</text>
+    </g>
+  </g>
+
+  <!-- Connectors down into Governance / Runtime -->
+  <g stroke="#0284c7" stroke-width="2.2" fill="none">
+    <path d="M 295 204 V 226"/>
+    <path d="M 650 204 V 226"/>
+  </g>
+
+  <!-- ==================== ROW 2: GOVERNANCE + RUNTIME (LEFT) & KNOWLEDGE (RIGHT) ==================== -->
+  <!-- Left Large Dashed Box: GOVERNANCE · core/ -->
+  <g transform="translate(40, 226)" filter="url(#cardDrop)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="790" height="284" rx="22" fill="#ffffff" stroke="#4f80ff" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="22" y="28" fill="#1d4ed8" font-size="12.5" font-weight="900" letter-spacing="1.2">GOVERNANCE BOUNDARY · core/ + src/</text>
+
+    <!-- Solid Blue Inner Box: Runtime yana-rt (Rust) -->
+    <g transform="translate(20, 40)">
+      <rect x="0" y="0" width="750" height="128" rx="18" fill="url(#rtFill)" stroke="#0284c7" stroke-width="2.2"/>
+      <text x="22" y="28" fill="#0f172a" font-size="17" font-weight="900">Runtime yana-rt (Rust) — 313 files · 82,133 LOC</text>
+      <text x="22" y="47" fill="#334155" font-size="12.5" font-weight="700">One turn loop and one capability contract for every application and provider. 40 subcommands, zero Python dependency.</text>
+
+      <!-- 4 Core Steps inside yana-rt -->
+      <g transform="translate(20, 60)">
+        <rect x="0" y="0" width="166" height="52" rx="10" fill="#ffffff" stroke="#7dd3fc" stroke-width="1.5"/>
+        <text x="83" y="22" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="900">Authority</text>
+        <text x="83" y="39" text-anchor="middle" fill="#475569" font-size="11" font-weight="600">who is allowed to ask</text>
+
+        <rect x="181" y="0" width="166" height="52" rx="10" fill="#ffffff" stroke="#7dd3fc" stroke-width="1.5"/>
+        <text x="264" y="22" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="900">Capability</text>
+        <text x="264" y="39" text-anchor="middle" fill="#475569" font-size="11" font-weight="600">which exact right</text>
+
+        <rect x="362" y="0" width="166" height="52" rx="10" fill="#ffffff" stroke="#7dd3fc" stroke-width="1.5"/>
+        <text x="445" y="22" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="900">Policy</text>
+        <text x="445" y="39" text-anchor="middle" fill="#475569" font-size="11" font-weight="600">rules, then human</text>
+
+        <rect x="543" y="0" width="166" height="52" rx="10" fill="#17181c"/>
+        <text x="626" y="22" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="900">Executor</text>
+        <text x="626" y="39" text-anchor="middle" fill="#86efac" font-size="11" font-weight="700">runs approved only</text>
+      </g>
+    </g>
+
+    <!-- 4 Governance Pillars below yana-rt -->
+    <g transform="translate(20, 184)">
+      <rect x="0" y="0" width="176" height="82" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="88" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="900">Hash-Chained Log</text>
+      <text x="88" y="43" text-anchor="middle" fill="#475569" font-size="11" font-weight="600">Trillian SHA-256 chain;</text>
+      <text x="88" y="58" text-anchor="middle" fill="#0284c7" font-size="11" font-weight="700">tampering is detected</text>
+
+      <rect x="191" y="0" width="176" height="82" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="279" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="900">Core-lock</text>
+      <text x="279" y="43" text-anchor="middle" fill="#475569" font-size="11" font-weight="600">SHA-256 pins ~290</text>
+      <text x="279" y="58" text-anchor="middle" fill="#0284c7" font-size="11" font-weight="700">canonical core files</text>
+
+      <rect x="382" y="0" width="176" height="82" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="470" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="900">Human Approval Gate</text>
+      <text x="470" y="43" text-anchor="middle" fill="#475569" font-size="11" font-weight="600">push, delete, deploy</text>
+      <text x="470" y="58" text-anchor="middle" fill="#b45309" font-size="11" font-weight="700">require in-session review</text>
+
+      <rect x="573" y="0" width="177" height="82" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="661" y="24" text-anchor="middle" fill="#17181c" font-size="13" font-weight="900">Giám Thị Supervisor</text>
+      <text x="661" y="43" text-anchor="middle" fill="#475569" font-size="11" font-weight="600">Runs outside AI sessions;</text>
+      <text x="661" y="58" text-anchor="middle" fill="#e11d48" font-size="11" font-weight="700">locks all cmds on drift</text>
+    </g>
+  </g>
+
+  <!-- Right Box: KNOWLEDGE · core/ (Separated from execution privilege) -->
+  <g transform="translate(850, 226)" filter="url(#cardDrop)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="310" height="284" rx="22" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="22" y="28" fill="#0f172a" font-size="12.5" font-weight="900" letter-spacing="1">KNOWLEDGE LAYER · core/</text>
+    <text x="22" y="46" fill="#64748b" font-size="11.5" font-weight="700">Teaches how to work. Grants zero privileges.</text>
+
+    <!-- 2x2 + 1 Grid of exact counts -->
+    <g transform="translate(18, 60)">
+      <rect x="0" y="0" width="132" height="58" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="66" y="25" text-anchor="middle" fill="#17181c" font-size="16" font-weight="900">60 Agents</text>
+      <text x="66" y="43" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">role specialists</text>
+
+      <rect x="142" y="0" width="132" height="58" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="208" y="25" text-anchor="middle" fill="#17181c" font-size="16" font-weight="900">2,027 Skills</text>
+      <text x="208" y="43" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">workflow playbooks</text>
+
+      <rect x="0" y="68" width="132" height="58" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="66" y="93" text-anchor="middle" fill="#17181c" font-size="15" font-weight="900">170 Commands</text>
+      <text x="66" y="111" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">slash workflows</text>
+
+      <rect x="142" y="68" width="132" height="58" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+      <text x="208" y="93" text-anchor="middle" fill="#17181c" font-size="15" font-weight="900">71 Rules</text>
+      <text x="208" y="111" text-anchor="middle" fill="#64748b" font-size="11" font-weight="600">behavioral contract</text>
+
+      <rect x="0" y="136" width="274" height="68" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+      <text x="137" y="162" text-anchor="middle" fill="#0369a1" font-size="15" font-weight="900">66 Enforced Hooks (63 sh · 3 js)</text>
+      <text x="137" y="182" text-anchor="middle" fill="#334155" font-size="11.5" font-weight="700">The executable bridge wired into runtime gates</text>
+    </g>
+  </g>
+
+  <!-- Connector down to Models -->
+  <line x1="435" y1="510" x2="435" y2="534" stroke="#0284c7" stroke-width="2.2"/>
+
+  <!-- ==================== ROW 3: MODELS (19 PROVIDERS) + YANA OS & WHEELBOT ==================== -->
+  <!-- Models Panel -->
+  <g transform="translate(40, 534)" filter="url(#cardDrop)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="790" height="114" rx="18" fill="#ffffff" stroke="#0284c7" stroke-width="1.8"/>
+    <text x="22" y="28" fill="#0f172a" font-size="13" font-weight="900" letter-spacing="1">MODEL LAYER · 19 PROVIDERS (src/model/ — fallback, key rotation, prompt caching)</text>
+
+    <g transform="translate(20, 40)">
+      <rect x="0" y="0" width="420" height="56" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="16" y="23" fill="#0369a1" font-size="12.5" font-weight="900">13 Cloud Providers</text>
+      <text x="16" y="42" fill="#334155" font-size="11.5" font-weight="600">Anthropic · OpenAI · Gemini · Groq · DeepSeek · OpenRouter · xAI · Kimi + 5 more</text>
+
+      <rect x="434" y="0" width="316" height="56" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="450" y="23" fill="#0f766e" font-size="12.5" font-weight="900">6 Local Runtimes</text>
+      <text x="450" y="42" fill="#334155" font-size="11.5" font-weight="600">Ollama · LM Studio · llama.cpp · TurboFieldfare · AirLLM · 9Router</text>
+    </g>
+  </g>
+
+  <!-- Right Bottom: Yana OS (In Dev) & Wheelbot (Experimental) -->
+  <g transform="translate(850, 534)" filter="url(#cardDrop)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <!-- Yana OS: Yellow border = In Development -->
+    <rect x="0" y="0" width="148" height="114" rx="18" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+    <text x="74" y="32" text-anchor="middle" fill="#92400e" font-size="14" font-weight="900">Yana OS</text>
+    <text x="74" y="52" text-anchor="middle" fill="#b45309" font-size="11" font-weight="700">In Development</text>
+    <text x="74" y="72" text-anchor="middle" fill="#78350f" font-size="10.5" font-weight="600">Agent identity · quotas</text>
+    <text x="74" y="87" text-anchor="middle" fill="#78350f" font-size="10.5" font-weight="600">autonomy · isolation</text>
+
+    <!-- Wheelbot: Red border = Experimental -->
+    <rect x="162" y="0" width="148" height="114" rx="18" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+    <text x="236" y="32" text-anchor="middle" fill="#9f1239" font-size="14" font-weight="900">Wheelbot</text>
+    <text x="236" y="52" text-anchor="middle" fill="#e11d48" font-size="11" font-weight="700">Experimental</text>
+    <text x="236" y="72" text-anchor="middle" fill="#881337" font-size="10.5" font-weight="600">ESP32-S3 voice robot</text>
+    <text x="236" y="87" text-anchor="middle" fill="#881337" font-size="10.5" font-weight="600">separate hardware repo</text>
+  </g>
+</svg>

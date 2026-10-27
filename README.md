@@ -1,283 +1,195 @@
 <p align="center">
-  <img src="assets/yana-profile-hero.svg" alt="Vũ Văn Tâm — creator of Yana AI" width="100%" />
+  <img src="assets/yana-hero.svg" alt="Vũ Văn Tâm — Creator & Founder of Yana AI: AI does the work. You keep authority." width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/yanacuti1121/Yana-AI"><strong>Yana AI</strong></a> ·
-  <a href="https://yanacuti1121.github.io/Yana-AI/">Documentation</a> ·
-  <a href="https://yanacuti1121.github.io/Yana-AI/desktop.html">Desktop App</a> ·
-  <a href="https://crates.io/crates/yana-rt">Rust Runtime</a> ·
-  <a href="https://pypi.org/project/yana-ai/">Python CLI</a>
+  <a href="https://yana.vutam.link"><strong>yana.vutam.link</strong></a> ·
+  <a href="https://github.com/yanacuti1121/Yana-AI"><strong>Yana AI Repository</strong></a> ·
+  <a href="https://github.com/yanacuti1121/Yana-AI/releases">Yana Studio IDE 1.7</a> ·
+  <a href="https://crates.io/crates/yana-rt"><code>yana-rt</code> (Rust)</a> ·
+  <a href="https://pypi.org/project/yana-ai/"><code>yana-ai</code> (PyPI)</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/yanacuti1121/Yana-AI/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/yanacuti1121/Yana-AI/ci.yml?branch=main&style=flat-square&label=Yana%20CI&color=7dd3fc" alt="Yana AI CI" /></a>
-  <a href="https://crates.io/crates/yana-rt"><img src="https://img.shields.io/crates/v/yana-rt?style=flat-square&logo=rust&color=38bdf8" alt="yana-rt on crates.io" /></a>
-  <a href="https://pypi.org/project/yana-ai/"><img src="https://img.shields.io/pypi/v/yana-ai?style=flat-square&logo=pypi&color=0284c7" alt="yana-ai on PyPI" /></a>
-  <a href="https://github.com/yanacuti1121/Yana-AI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-1d4ed8?style=flat-square" alt="Apache 2.0 license" /></a>
+  <a href="https://github.com/yanacuti1121/Yana-AI/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/yanacuti1121/Yana-AI/ci.yml?branch=main&style=flat-square&label=Yana%20CI&color=0284c7" alt="Yana AI CI" /></a>
+  <a href="https://crates.io/crates/yana-rt"><img src="https://img.shields.io/crates/v/yana-rt?style=flat-square&logo=rust&color=17181c" alt="yana-rt on crates.io" /></a>
+  <a href="https://pypi.org/project/yana-ai/"><img src="https://img.shields.io/pypi/v/yana-ai?style=flat-square&logo=pypi&color=3b82f6" alt="yana-ai on PyPI" /></a>
+  <a href="https://github.com/yanacuti1121/Yana-AI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-4f80ff?style=flat-square" alt="Apache 2.0 license" /></a>
 </p>
 
 ---
 
-## The human behind Yana AI
+## Vũ Văn Tâm — Creator & Founder of Yana AI
 
-I’m **Vũ Văn Tâm**, a Vietnamese developer based in South Korea. I began building the system that became Yana AI when I was 17.
+I am a Vietnamese systems builder based in South Korea. I started building the system that became **Yana AI** at age 17 on a personal computer—with no funding, no engineering team, and no research lab—driven by a single question: **how do we let coding agents work on a real machine without handing them unchecked execution power?**
 
-Yana did not begin as a startup pitch or a polished application. It began as files on my own computer: Claude Code configurations, safety rules, prompts, hooks, and automation experiments that I used to make AI-assisted development more reliable. That early system was called **YAMTAM ENGINE**.
+Today’s coding agents can wipe directories, push code to shared remotes, or read API keys with a single command. Telling a model *"please be careful"* inside a prompt is not a security boundary—prompts are text the model reads and can ignore. Running everything inside a sealed sandbox is safe, but strips the agent of its ability to work directly on your real project and toolchain.
 
-As I used it, the problem became larger than configuration. Different models and coding agents could write code, but they did not share one runtime, one capability boundary, one memory model, or one definition of when a human must take control. The files became a scaffold; the scaffold became a runtime; the runtime became Yana AI.
+**Yana AI takes the third path:** keep the agent working on your real machine, but route every action through a deterministic local control layer outside the model. Skills teach an agent *how* to work and grant zero privileges; execution power comes strictly from explicit capabilities, deterministic policy, and human approval.
+
+> **“Models propose. Yana decides. Humans can always stop it.”**  
+> *“Mô hình đề xuất, Yana quyết định, con người luôn dừng được.”*
 
 | At a glance | |
 |---|---|
-| **Background** | Vietnamese builder living in South Korea |
-| **Project** | Creator and primary maintainer of [Yana AI](https://github.com/yanacuti1121/Yana-AI) |
-| **Role** | Product direction, system architecture, implementation, operations, release decisions, and final human governance |
-| **Core focus** | Native runtimes, local AI, agent safety, automation, memory, orchestration, and cross-platform systems |
-| **Working model** | Human-directed, AI-assisted, evidence-driven engineering |
-
-I work with Claude, Codex, Gemini, local models, and specialist agents as engineering collaborators. They help implement, review, test, and challenge decisions. I do not hide that collaboration, and I do not transfer responsibility to it: authorship is credited where possible, while architecture, risk acceptance, release authority, and the project’s direction remain human decisions.
-
-> **My job is to make AI more capable without quietly making the human less in control.**
+| **Author & Founder** | **Vũ Văn Tâm** (Vietnamese developer in South Korea; solo builder for the first 6 months) |
+| **Team update** | **Nguyễn Nam Long** joined as a new member in late October 2026 |
+| **Primary product** | **Yana Studio IDE 1.7** (macOS Apple Silicon, built on Code-OSS 1.141) + **`yana-rt`** Rust runtime |
+| **Scale (17 May – 26 Oct 2026)** | **2,488 commits** · **426 merged PRs** · **41 releases** · **72 tags** · **82,133 lines of Rust** across 313 files |
+| **License & Website** | Apache-2.0 · [yana.vutam.link](https://yana.vutam.link/) · [github.com/yanacuti1121/Yana-AI](https://github.com/yanacuti1121/Yana-AI) |
 
 ---
 
-## From YAMTAM to Yana AI
+## Architecture & Deterministic Control
 
-The project has two histories: the code existed locally before this GitHub repository, and the public Git history begins later. I keep that distinction visible instead of turning uncertain dates into marketing facts.
+Every request—whether originating from Claude, GPT, Gemini, DeepSeek, or a local model—passes through the exact same **5-step decision pipeline**. Both allowed and blocked actions are recorded into a tamper-evident SHA-256 hash-chained audit log inspired by Google Trillian.
 
-| Date | Milestone | Evidence |
+<p align="center">
+  <img src="assets/yana-decision-flow.svg" alt="Figure 1: Yana 5-Step Deterministic Decision Pipeline" width="100%" />
+</p>
+
+### Ecosystem Overview
+
+External AI coding hosts (`adapters/`) and Yana’s own applications (`tools/`) converge on a single native Rust binary, **`yana-rt`**. The governance layer wraps the runtime, while the knowledge layer sits alongside it—providing specialist playbooks without granting execution privileges.
+
+<p align="center">
+  <img src="assets/yana-ecosystem.svg" alt="Figure 2: Yana AI Ecosystem Architecture" width="100%" />
+</p>
+
+### Repository Anatomy (Verified 26 Oct 2026)
+
+```text
+Yana-AI/
+├── src/                        yana-rt Rust runtime · 313 Rust files · 82,133 LOC · 40 subcommands
+│   ├── capability/             unified capability contract & executor shared across chat and MCP
+│   ├── guard/                  shell-aware destructive command, pipe-to-shell, and write-mode guard
+│   ├── model/                  19 providers (13 cloud, 6 local), automatic fallback, API key rotation
+│   ├── session_db/             SQLite session store, full-text search, shadow-git undo checkpoints
+│   ├── os/                     Yana OS: agent identity, autonomy tiers, quotas, health supervision
+│   ├── mcp.rs, mcp_client/, lsp_client/
+│   └── chat/, mission/, memory/, doctor/, scanner/, … (50 top-level modules)
+├── core/                       governance & non-privileged knowledge layer
+│   ├── hooks/                  66 runtime hooks intercepting tool calls (63 shell, 3 JavaScript)
+│   ├── rules/                  71 rules · behavioral contracts & enforced policies
+│   ├── agents/                 60 specialist role agents
+│   ├── skills/                 2,027 workflow skills (teach how to work; grant zero privilege)
+│   ├── commands/               170 slash commands
+│   ├── gates/, scripts/        deterministic verification gates & 138 operational scripts
+│   └── config/core-lock.json   SHA-256 cryptographic pins across ~290 canonical core files
+├── tools/                      end-user applications
+│   ├── yana-ide/               Yana Studio IDE 1.7 overlay built on Code-OSS 1.141
+│   ├── yana-studio/            predecessor standalone Electron Studio (v1.5–1.6)
+│   └── yana-desktop/, yana-web/, yana-pixel-bridge/, codexmate/, moss-tts-nano/
+├── adapters/                   Claude Code, Codex, Cursor, and Antigravity integrations
+└── site/, docs/, ci/, gates/, memory/ (L1 long-term & L2 session memory)
+```
+
+---
+
+## Real-World Execution & Guard Behavior
+
+### Component Status Matrix
+
+| Component | Role & Scope | Status |
 |---|---|---|
-| **05 May 2026** | The name **YAMTAM ENGINE** reportedly appeared on an earlier local ZIP artifact. | Recorded as my account of the project’s genesis; the original artifact has not yet been independently re-verified. See the [lineage record](https://github.com/yanacuti1121/Yana-AI/blob/main/docs/history/LINEAGE.md). |
-| **16 May 2026** | The earliest independently verified embedded Git commit, `scaffold baseline`, appears inside a preserved YAMTAM scaffold ZIP. | Verified from the archive’s embedded `.git` history and checksum, documented in the [lineage record](https://github.com/yanacuti1121/Yana-AI/blob/main/docs/history/LINEAGE.md). |
-| **17 May 2026** | The surviving public repository history begins. YAMTAM runtime assets, Truth Gate, drift checking, memory, scope protection, Action Gate, and release tooling start entering the repository. | Verified directly from the [public repository history](https://github.com/yanacuti1121/Yana-AI/commits/main/). |
-| **Today** | Yana is a local-first Rust runtime, project governance layer, terminal workspace, desktop app, adapter system, memory and evidence stack, Yana OS foundation, and open-source engineering project. | Implementations, tests, releases, architecture reports, and known limitations remain public in the main repository. |
+| **Yana Studio IDE 1.7** | Primary product (released 16 Oct 2026 for macOS). Full Code-OSS 1.141 with Copilot/MS telemetry removed and Yana wired in: supervised agent chat, approval cards, evidence-backed tasks, 19 model providers, project memory, isolated Design Canvas, and office document tools. | **Active (Production)** |
+| **Runtime `yana-rt`** | Single native Rust binary: turn loop, capability contract, SQLite session store, shadow-git undo checkpoints, 14-tool MCP server/client, and read-only LSP client. | **Active (Production)** |
+| **Governance & Audit** | Capability manifests, human approval gates, Trillian-style SHA-256 hash-chained log, `core-lock` (~290 files), capability leases, and decision receipts. | **Active (Production)** |
+| **Giám Thị Supervisor** | Out-of-band OS daemon (`launchd` / `systemd` / Task Scheduler) running outside every AI session; locks all execution if control files drift from human-approved state. | **Active (Auto-enabled)** |
+| **Host Adapters** | Claude Code (full tool-call interception), Codex (project hooks), Cursor & Antigravity (shell command filtering). | **Active (Host-dependent)** |
+| **Knowledge Layer** | 60 specialist agents, 2,027 skills, 170 slash commands, and 71 rules. | **Active** |
+| **Yana OS** | Local agent identity, autonomy tiers, quotas, durable action queue, and quarantine isolation. | **In Development** |
+| **Wheelbot** | Voice-controlled ESP32-S3 hardware robot bridged to Yana voice tools (separate repository). | **Experimental** |
 
-The reported lineage is:
+### Live Guard Examples (`yana-rt guard destructive`)
 
-```text
-Claude Code configurations → GitNexus experiments → YAMTAM ENGINE → Yana AI
-```
+When an agent attempts to run a shell command, `yana-rt` parses shell quoting, command substitutions, heredocs, pipelines, and subshells before evaluating risk (`exit 2` = blocked, `exit 0` = allowed):
 
-This history matters because Yana was not invented all at once. It grew from repeated failures, real CI breakage, unsafe automation, duplicated runtimes, stale documentation, packaging mistakes, and the need to distinguish “a file exists” from “a capability is genuinely wired and usable.”
-
----
-
-## What I am building
-
-<h3 align="center">Yana AI 🐰</h3>
-<p align="center"><strong>One runtime. Any AI. Human-governed.</strong></p>
-<p align="center"><em>Build with AI. Govern what it builds.</em></p>
-
-<p align="center">
-  <img src="assets/yana-ai-key-visual.png" alt="Yana AI — Control, Verify, Protect" width="680" />
-</p>
-
-Yana AI is a **local-first, cross-platform control and runtime system for AI**. It connects local models, cloud models, coding agents, project tools, memory, and automation to one native execution layer while keeping deterministic policy and human authority in the path.
-
-It is not a foundation model and it is not tied to one provider. Yana does not try to replace Claude, Codex, Cursor, Ollama, LM Studio, or llama.cpp. It gives them a shared runtime and a governed boundary for what they may inspect, change, and execute.
-
-<p align="center">
-  <img src="assets/yana-architecture.svg" alt="Yana AI architecture" width="100%" />
-</p>
-
-### The problem
-
-AI can now read repositories, edit files, run commands, launch agents, call tools, and prepare releases. Intelligence is improving quickly, but operational control is still fragmented:
-
-- each model or coding agent invents a different workflow;
-- tool permissions are often mixed directly into UI or provider code;
-- “safe”, “done”, and “approved” are frequently claims without evidence;
-- local models and cloud models do not naturally share one governed execution layer;
-- automation can become more autonomous without a clear boundary for when a human must decide.
-
-Yana turns those questions into runtime behavior rather than policy text alone.
-
-### The system
-
-| Layer | What it does |
-|---|---|
-| **`yana-rt`** | The native Rust core for chat, capabilities, routing, missions, memory, evidence, workspace operations, host health, and runtime coordination. |
-| **Model providers** | Connect local and cloud inference without spreading provider-specific logic throughout the interface. |
-| **Project adapters** | Bring the same governed project contract to Claude Code, Codex, Cursor, and Antigravity. |
-| **Capability runtime** | Centralizes repository, Git, host, process, and command operations so every interface uses the same boundary. |
-| **Deterministic gates** | Check risky operations, scope, truth claims, destructive commands, integrity, and release evidence without asking another LLM to decide. |
-| **Memory and evidence** | Preserve project facts, session context, turn history, receipts, and audit trails while keeping local-first defaults. |
-| **Yana OS + Giám Thị** | Supervise the runtime and host, expose health, support HALT/quarantine flows, and keep high-autonomy behavior subordinate to human unlock. |
-| **Terminal + Desktop** | Give the same core a keyboard-first local AI workspace and a graphical application rather than building separate brains for each UI. |
-
-### What exists today
-
-- A Rust runtime with native chat, streaming, cancellation, sessions, routing, missions, capabilities, health, workspace, and OS surfaces.
-- Local model paths for Ollama, LM Studio, llama.cpp, and compatible local endpoints, alongside cloud-provider integrations.
-- Project adapters for Claude Code, Codex, Cursor, and Antigravity.
-- **2,025 skills**, **103 specialist agents**, **170 commands**, and **63 deterministic hooks** maintained from canonical sources.
-- A multi-platform Electron desktop application and a Rust terminal chat experience connected to the same runtime direction.
-- Project memory, evidence, audit, integrity, quarantine, and human approval mechanisms.
-- Cross-platform work targeting macOS, Linux, and Windows.
-
-These numbers describe a fast-moving project, not a promise that every surface has equal maturity. I keep architecture-health reports and known limitations public because runtime truth matters more than a large feature count.
-
----
-
-## What makes Yana different
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-### ◆ Local-first
-
-Local inference, project state, memory, and deterministic checks should work without mandatory telemetry or a cloud control plane.
-
-</td>
-<td width="25%" valign="top">
-
-### ◇ Provider-neutral
-
-The UI talks to runtime abstractions, not provider-specific code scattered across the product.
-
-</td>
-<td width="25%" valign="top">
-
-### ◈ Deterministic
-
-Safety-critical decisions use inspectable code, explicit gates, evidence, and reproducible tests—not another model’s confidence.
-
-</td>
-<td width="25%" valign="top">
-
-### ◎ Human-governed
-
-Higher autonomy requires stronger evidence and clearer human authority, not fewer controls.
-
-</td>
-</tr>
-</table>
-
-Yana’s autonomy model is intentionally asymmetric: routine work should become automatic, while irreversible or high-impact actions stay human-controlled.
-
-```text
-Observe → Recommend → Prepare → Execute safely → Escalate high-impact decisions
-                                                  ↑
-                                         human authority remains
-```
-
----
-
-## My responsibility inside the project
-
-### I define the direction
-
-I decide the product principles, the autonomy boundary, which runtimes and interfaces belong in Yana, and where the project should remain deliberately conservative.
-
-### I protect the architecture
-
-`yana-rt` is the deepest core. Terminal chat, desktop UI, project adapters, MCP surfaces, and future interfaces should converge on its capabilities rather than create independent execution paths. When duplicate implementations appear, I treat that as architectural debt.
-
-### I operate the system
-
-I investigate CI failures, release breakage, packaging gaps, hook races, platform differences, runtime regressions, and drift between documentation and executable behavior. A feature is not complete because its file exists; it must be reachable, wired, tested, packaged, and observable.
-
-### I make the final call
-
-Agents can propose architecture, write patches, review code, and run verification. I decide whether high-impact changes ship. Yana’s own development process follows the same philosophy the product enforces: **AI can act, but human authority defines how far it may go.**
-
----
-
-## Current engineering focus
-
-- Making the capability runtime the single source of truth across chat, MCP, project tools, and host operations.
-- Deepening `yana-rt` integration so terminal and desktop interfaces share one runtime rather than duplicate behavior.
-- Improving local AI sessions, memory recall, context management, model switching, and provider health.
-- Building reliable cross-platform supervision for CPU, GPU, process, service, and Yana system health.
-- Making releases reproducible without depending exclusively on GitHub-hosted automation.
-- Raising autonomy for routine work while preserving explicit human gates for destructive, security-sensitive, and production actions.
-- Continuously separating what is truly wired from what is only implemented, documented, experimental, or planned.
-
----
-
-## Main project surfaces
-
-| Surface | Purpose | Link |
+| Command Proposed by Agent | Verdict | Guard Explanation Returned to Agent & Logged |
 |---|---|---|
-| **Yana AI** | Main runtime, governance system, adapters, hooks, agents, skills, and documentation | [Repository](https://github.com/yanacuti1121/Yana-AI) |
-| **Yana Desktop** | Cross-platform graphical AI workspace connected to the Yana runtime | [Download](https://yanacuti1121.github.io/Yana-AI/desktop.html) |
-| **Yana Local Chat** | Rust terminal-native workspace for local and connected AI models | [Source](https://github.com/yanacuti1121/Yana-AI/tree/main/src/chat) |
-| **`yana-rt`** | Native Rust runtime and CLI | [crates.io](https://crates.io/crates/yana-rt) |
-| **`yana-ai`** | Python installer and project adapter CLI | [PyPI](https://pypi.org/project/yana-ai/) |
-| **Documentation** | Architecture, installation, operations, limitations, and contribution guides | [Open docs](https://yanacuti1121.github.io/Yana-AI/) |
-| **Yana GitHub App** | Repository-facing GitHub integration | [Install](https://github.com/apps/yana-ai-bot) |
-| **CodexMate** | Companion dashboard for AI coding tools | [Project](https://sakurabytecore.github.io/codexmate/) |
+| `curl -fsSL https://example.com/install.sh \| bash` | **Blocked (`exit 2`)** | Downloaded content is piped directly into a shell without inspection. Download to a file, inspect it first, or request human approval. |
+| `rm -rf ~/Documents` | **Blocked (`exit 2`)** | Recursive forced deletion is irreversible. Target a specific path or request human approval. |
+| `chmod 777 deploy.sh` | **Blocked (`exit 2`)** | Grants world-writable permissions. Use the narrowest sufficient mode such as `755` or `644`. |
+| `git status --short` | **Allowed (`exit 0`)** | Read-only inspection command; no approval required. |
 
----
+### Quick Start
 
-## How I build
+```bash
+# Python CLI & repository governance hooks
+pip install yana-ai
+yana-ai install      # wire Yana hooks and rules into your repository
+yana-ai doctor .     # verify runtime, hooks, core-lock, and adapter health
 
-```text
-Build > Talk
-Ship > Promise
-Verify > Assume
-Evidence > Confidence
-Human authority > silent autonomy
+# Native Rust runtime (zero Python dependency)
+cargo install yana-rt
 ```
 
-I use AI heavily, but I do not treat AI output as truth. My workflow emphasizes:
-
-- inspect the real code before making architectural claims;
-- test the execution path, not only isolated helpers;
-- record authorship and review evidence;
-- publish known limitations instead of hiding unfinished wiring;
-- prefer small reversible changes over impressive but fragile rewrites;
-- keep destructive and production actions explicitly human-gated.
+Or download **Yana Studio IDE 1.7** (`.dmg` / `.zip` for macOS Apple Silicon) directly from [yana.vutam.link](https://yana.vutam.link/) or [GitHub Releases](https://github.com/yanacuti1121/Yana-AI/releases).
 
 ---
 
-## Technology
+## Six Months of Engineering (17 May – 26 Oct 2026)
 
-<p>
-  <img src="https://img.shields.io/badge/Rust-160b24?style=for-the-badge&logo=rust&logoColor=fff7fb" alt="Rust" />
-  <img src="https://img.shields.io/badge/Python-7dd3fc?style=for-the-badge&logo=python&logoColor=160b24" alt="Python" />
-  <img src="https://img.shields.io/badge/C++-0f172a?style=for-the-badge&logo=cplusplus&logoColor=7dd3fc" alt="C++" />
-  <img src="https://img.shields.io/badge/C%23-512bd4?style=for-the-badge&logo=dotnet&logoColor=ffffff" alt="C#" />
-  <img src="https://img.shields.io/badge/Shell-38bdf8?style=for-the-badge&logo=gnu-bash&logoColor=ffffff" alt="Shell" />
-  <img src="https://img.shields.io/badge/JavaScript-1d4ed8?style=for-the-badge&logo=javascript&logoColor=ffffff" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-0ea5e9?style=for-the-badge&logo=typescript&logoColor=160b24" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/HTML5-f97316?style=for-the-badge&logo=html5&logoColor=ffffff" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-2563eb?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS" />
-  <img src="https://img.shields.io/badge/Electron-a78bfa?style=for-the-badge&logo=electron&logoColor=ffffff" alt="Electron" />
-  <img src="https://img.shields.io/badge/Docker-0284c7?style=for-the-badge&logo=docker&logoColor=ffffff" alt="Docker" />
-</p>
-
-My strongest interest is not a single language. It is the boundary between **AI intelligence, native systems, developer tools, automation, and human control**.
+| Period | Commits | Milestone | Key Engineering Deliverables |
+|---|---:|---|---|
+| **May 2026** *(from 17/05)* | **483** | **Foundation** | Truth Gate preventing premature "done" claims; two-tier memory (L1/L2); SHA-256 hash-chained log; OWASP LLM Top 10 guardrails; 70+ rules; MCP integration; Rust runtime rewrite; Apache-2.0 license. |
+| **June 2026** | **740** | **Expansion & Surface** | Skill library ingestion; trilingual site (VI/EN/KO); 1-click GitHub App on Marketplace; client-side AES-256-GCM API key encryption; parallel subagents; OCR; Rule 68 (privacy) & Rule 69 (anti-hype). |
+| **July 2026** | **246** | **Consolidation & Control** | **Giám Thị** out-of-band supervisor (16/07); `yana chat` with approval-gated tools; download malware scanner; `/freeze` scope lock; Codex adapter; Kimi provider; patched a real RCE chain in project scripts. |
+| **August 2026** | **437** | **Yana OS & Capabilities** | Unified Rust workspace; Yana OS (identity, autonomy tiers, durable action queue, health); capability leases, decision receipts, remote approval protocol; Sứ Giả release freshness; ESP32 voice bridge. |
+| **September 2026** | **307** | **Studio & Model Layer** | Standalone Electron Studio v1.5–1.6 (macOS/Win/Linux); provider fallback, key rotation, prompt cache markers; SQLite session store with shadow-git checkpoints; `file.patch`, `web.search`, `browser.fetch`. |
+| **October 2026** *(to 26/10)* | **275** | **Closing the Loop** | MCP client + trust store; read-only LSP; plan mode & diff preview; Word/Excel/PPT/PDF/Typst office suite; `~/.yana` installer; **Yana Studio IDE 1.7** on Code-OSS 1.141 (16/10); Antigravity hook guard; 2026 website. |
 
 ---
 
-## Open source and collaboration
+## Performance & Honest Limitations
 
-Yana AI learns from open-source projects, research, runtime patterns, and real operational failures. When an upstream project directly influences an implementation, I aim to preserve license information and attribution in the relevant source or documentation.
+### Benchmark (`yana-rt` 1.5.1 Release on MacBook Air M4, 16 GB)
 
-Contributions are welcome—especially from people interested in Rust runtimes, local AI, terminal interfaces, cross-platform systems, safety engineering, reproducible releases, and human-centered automation.
+| Measurement | `yana-rt` (Rust) | Legacy Python | Notes |
+|---|---:|---:|---|
+| **Cold startup** | **4.16 ms** | — | Mean over 100 runs |
+| **`yana-rt doctor`** | **143 ms** | 415 ms | **2.9× faster**, identical 16 health checks |
+| **`yana-rt ci check`** | **5.8 ms** | 33 ms | **5.7× faster**, identical 5 warnings |
+| **Scan `core/skills`** | **0.55 s** | 8.47 s | **15.5× faster** |
+| **Destructive command guard** | **4.9 ms** | — | Per tool-call hook invocation |
+| **Release binary size** | **18.2 MiB** | — | Self-contained native binary |
 
-<p align="center">
-  <a href="https://github.com/yanacuti1121/Yana-AI/issues"><img src="https://img.shields.io/badge/Open_an_issue-7dd3fc?style=for-the-badge&logo=github&logoColor=160b24" alt="Open an issue" /></a>
-  <a href="https://github.com/yanacuti1121/Yana-AI/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contribute-38bdf8?style=for-the-badge&logo=git&logoColor=ffffff" alt="Contribute" /></a>
-  <a href="https://github.com/sponsors/yanacuti1121"><img src="https://img.shields.io/badge/Sponsor-0ea5e9?style=for-the-badge&logo=githubsponsors&logoColor=160b24" alt="Sponsor" /></a>
-</p>
+### Known Limitations (Published Openly)
+
+Every safety claim in Yana comes with its explicit boundary:
+
+1. **Audit Log Deletion:** The SHA-256 hash chain detects any in-place modification or line deletion, but cannot prevent an attacker with local filesystem write access from deleting the entire log file.
+2. **`core-lock` & Giám Thị Window:** `core-lock` proves file trees match pinned hashes, not that a human reviewed the diff. Giám Thị runs out-of-band via OS schedulers every 6 hours, leaving a window of up to 6 hours before scheduled drift lock triggers.
+3. **Rules vs. Enforced Hooks:** Most files in `core/rules/` describe behavioral contracts applied by the agent; only rules wired to the **66 hooks** in `core/hooks/` are deterministically enforced at runtime.
+4. **Guard vs. Sandbox:** The destructive command guard is a shell-aware structural blocklist (backed by 1,642 unit tests across 6 adversarial review rounds), not an OS kernel sandbox. True protection rests on human approval gates and per-operation capability leases.
+5. **Host Coverage:** Cursor does not filter MCP tool calls; Antigravity filters shell commands only and is bypassed if launched with `--dangerously-skip-permissions`.
+6. **macOS Notarization:** Yana Studio IDE 1.7 is not yet Apple-notarized (pending an Apple Developer account), so first launch requires bypassing Gatekeeper (`docs/MACOS_INSTALL.md`).
 
 ---
 
-## Contact
+## Seven Engineering Principles
 
-| | |
+1. **Humans before automation** *(Con người trước tự động hóa)* — Every consequential decision must have an accountable human.
+2. **Safety before speed** *(An toàn trước tốc độ)* — When forced to choose, choose safety.
+3. **Evidence before confidence** *(Bằng chứng trước sự tự tin)* — Claims require logs, audits, or deterministic tests.
+4. **Build less, build better** *(Xây ít hơn, xây tốt hơn)* — Every feature must justify its existence; the rest is removed.
+5. **Design for failure** *(Thiết kế cho thất bại)* — Every real incident becomes a stronger architectural boundary.
+6. **Open, honest, transparent** *(Mở, trung thực, minh bạch)* — Build in public and document limitations alongside features.
+7. **Relentless improvement** *(Không ngừng cải thiện)* — Software is never finished; wrong assumptions are more dangerous than bugs.
+
+---
+
+## Contact & Links
+
+| Channel | Link |
 |---|---|
-| GitHub | [@yanacuti1121](https://github.com/yanacuti1121) |
-| Email | [phamlongh230@gmail.com](mailto:phamlongh230@gmail.com) |
-| Personal site | [me.vutam.link](https://me.vutam.link) |
-| Website | [Yana AI Documentation](https://yanacuti1121.github.io/Yana-AI/) |
-| TikTok | [@yana018](https://www.tiktok.com/@.yana018) |
-| Facebook | [vutam1810](https://www.facebook.com/vutam1810) |
+| **Official Website** | [yana.vutam.link](https://yana.vutam.link/) |
+| **Main Repository** | [github.com/yanacuti1121/Yana-AI](https://github.com/yanacuti1121/Yana-AI) |
+| **Personal Site** | [me.vutam.link](https://me.vutam.link) |
+| **Email** | [phamlongh230@gmail.com](mailto:phamlongh230@gmail.com) |
+| **Social** | [TikTok (@.yana018)](https://www.tiktok.com/@.yana018) · [Facebook (vutam1810)](https://www.facebook.com/vutam1810) |
 
 <p align="center">
-  <strong>Your AI can act. But who decides how far it can go?</strong><br />
-  <sub>I am building Yana AI so that answer remains visible, inspectable, and human.</sub>
+  <strong>“Yana AI exists because the human remains the final decision-maker.”</strong><br />
+  <sub>Vũ Văn Tâm — Creator &amp; Founder of Yana AI</sub>
 </p>

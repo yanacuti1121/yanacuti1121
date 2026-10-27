@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Yana 5-Step Deterministic Decision Pipeline</title>
+  <desc id="desc">Every request from any model passes through 5 deterministic gates: Model proposes, Authority, Capability, Policy + Human Approval, Executor, all recorded into a Trillian-inspired SHA-256 hash-chained audit log.</desc>
+  <defs>
+    <linearGradient id="bgFlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfdff"/>
+      <stop offset="1" stop-color="#f1f6fd"/>
+    </linearGradient>
+    <linearGradient id="accentFlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f80ff"/>
+      <stop offset="0.5" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="boxShadow" x="-10%" y="-15%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#3b82f6"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#e11d48"/>
+    </marker>
+    <marker id="arrowSlate" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="340" rx="28" fill="url(#bgFlow)" stroke="#d6e1ef" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="44" y="42" fill="#17181c" font-size="19" font-weight="900" letter-spacing="-0.3">FIGURE 1 · DETERMINISTIC DECISION PIPELINE</text>
+    <text x="44" y="63" fill="#5d6573" font-size="13.5" font-weight="600">Skills teach how to work and never sit on this path — only explicit capabilities grant execution rights.</text>
+    <g transform="translate(946, 22)">
+      <rect x="0" y="0" width="210" height="30" rx="15" fill="#17181c"/>
+      <text x="105" y="20" text-anchor="middle" fill="#ffffff" font-size="11.5" font-weight="800" letter-spacing="1.2">CONTROL · VERIFY · PROTECT</text>
+    </g>
+  </g>
+
+  <!-- Connecting Flow Arrows between 5 Boxes -->
+  <g stroke="#3b82f6" stroke-width="2.4" fill="none">
+    <line x1="226" y1="138" x2="256" y2="138" marker-end="url(#arrowBlue)"/>
+    <line x1="442" y1="138" x2="472" y2="138" marker-end="url(#arrowBlue)"/>
+    <line x1="658" y1="138" x2="688" y2="138" marker-end="url(#arrowBlue)"/>
+    <line x1="874" y1="138" x2="904" y2="138" marker-end="url(#arrowBlue)"/>
+  </g>
+
+  <!-- Step 1: Model -->
+  <g transform="translate(44, 88)" filter="url(#boxShadow)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="182" height="100" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="13" fill="#f1f5f9"/>
+    <text x="26" y="31" text-anchor="middle" fill="#334155" font-size="13" font-weight="900">1</text>
+    <text x="48" y="31" fill="#17181c" font-size="16" font-weight="900">Model</text>
+    <text x="18" y="56" fill="#475569" font-size="13" font-weight="700">Proposes an action</text>
+    <text x="18" y="76" fill="#64748b" font-size="11.5" font-weight="600">Claude · GPT · Gemini · Local</text>
+  </g>
+
+  <!-- Step 2: Authority -->
+  <g transform="translate(260, 88)" filter="url(#boxShadow)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="182" height="100" rx="18" fill="#ffffff" stroke="#93c5fd" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="13" fill="#dbeafe"/>
+    <text x="26" y="31" text-anchor="middle" fill="#1d4ed8" font-size="13" font-weight="900">2</text>
+    <text x="48" y="31" fill="#17181c" font-size="16" font-weight="900">Authority</text>
+    <text x="18" y="56" fill="#334155" font-size="13" font-weight="700">Is this agent allowed</text>
+    <text x="18" y="76" fill="#64748b" font-size="11.5" font-weight="600">to ask in this session?</text>
+  </g>
+
+  <!-- Step 3: Capability -->
+  <g transform="translate(476, 88)" filter="url(#boxShadow)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="182" height="100" rx="18" fill="#ffffff" stroke="#7dd3fc" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="13" fill="#e0f2fe"/>
+    <text x="26" y="31" text-anchor="middle" fill="#0369a1" font-size="13" font-weight="900">3</text>
+    <text x="48" y="31" fill="#17181c" font-size="16" font-weight="900">Capability</text>
+    <text x="18" y="56" fill="#334155" font-size="13" font-weight="700">Which exact right?</text>
+    <text x="18" y="76" fill="#0284c7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700">file.patch · lease</text>
+  </g>
+
+  <!-- Step 4: Policy + Human -->
+  <g transform="translate(692, 88)" filter="url(#boxShadow)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="182" height="100" rx="18" fill="#ffffff" stroke="#fde68a" stroke-width="1.8"/>
+    <circle cx="26" cy="26" r="13" fill="#fef3c7"/>
+    <text x="26" y="31" text-anchor="middle" fill="#b45309" font-size="13" font-weight="900">4</text>
+    <text x="48" y="31" fill="#17181c" font-size="16" font-weight="900">Policy &amp; Gate</text>
+    <text x="18" y="56" fill="#334155" font-size="13" font-weight="700">Deterministic rules,</text>
+    <text x="18" y="76" fill="#b45309" font-size="12" font-weight="800">then Human Approval</text>
+  </g>
+
+  <!-- Step 5: Executor -->
+  <g transform="translate(908, 88)" filter="url(#boxShadow)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="248" height="100" rx="18" fill="#17181c" stroke="#17181c" stroke-width="1.5"/>
+    <circle cx="26" cy="26" r="13" fill="#22c55e"/>
+    <text x="26" y="31" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="900">5</text>
+    <text x="48" y="31" fill="#ffffff" font-size="16" font-weight="900">Executor (yana-rt)</text>
+    <text x="18" y="56" fill="#e2e8f0" font-size="13" font-weight="700">Runs only approved operation</text>
+    <text x="18" y="76" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700">receipt + git shadow checkpoint</text>
+  </g>
+
+  <!-- Rejection / Deny Arrows from Steps 2, 3, 4 -->
+  <g stroke="#e11d48" stroke-width="1.8" stroke-dasharray="4 3" fill="none">
+    <path d="M 351 188 V 218 H 495" marker-end="url(#arrowRed)"/>
+    <path d="M 567 188 V 210" marker-end="url(#arrowRed)"/>
+    <path d="M 783 188 V 218 H 645" marker-end="url(#arrowRed)"/>
+  </g>
+
+  <!-- Blocked Badge -->
+  <g transform="translate(450, 204)" filter="url(#boxShadow)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="240" height="36" rx="12" fill="#fff1f2" stroke="#fecdd3" stroke-width="1.5"/>
+    <rect x="10" y="8" width="54" height="20" rx="6" fill="#e11d48"/>
+    <text x="37" y="22" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="800">BLOCKED</text>
+    <text x="74" y="23" fill="#9f1239" font-size="12.5" font-weight="800">Denied with explicit reason</text>
+  </g>
+
+  <!-- Audit Log Feed Arrows -->
+  <g stroke="#64748b" stroke-width="1.6" fill="none">
+    <path d="M 570 240 V 264" marker-end="url(#arrowSlate)"/>
+    <path d="M 1032 188 V 264" marker-end="url(#arrowSlate)"/>
+  </g>
+
+  <!-- Bottom Bar: Hash-Chained Audit Log (Trillian-style) -->
+  <g transform="translate(44, 268)" filter="url(#boxShadow)" font-family="Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="0" y="0" width="1112" height="50" rx="16" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.5"/>
+    <rect x="12" y="11" width="178" height="28" rx="9" fill="#eef2ff"/>
+    <text x="101" y="29" text-anchor="middle" fill="#3730a3" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="800">SHA-256 HASH CHAIN</text>
+    <text x="206" y="30" fill="#1e293b" font-size="13.5" font-weight="700">
+      Tamper-evident audit ledger (Trillian architecture): every entry carries the SHA-256 hash of the previous entry — modifying or deleting any line is detected.
+    </text>
+  </g>
+</svg>
