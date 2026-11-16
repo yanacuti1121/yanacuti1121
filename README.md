@@ -22,7 +22,6 @@
   <a href="https://github.com/Horonomos-laps/Yana-studio/actions/workflows/js-tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/Horonomos-laps/Yana-studio/js-tests.yml?branch=main&label=tests&style=flat" alt="Studio tests" height="20"></a>
   <img src="https://img.shields.io/badge/macOS-SwiftUI-000000?style=flat&logo=apple" alt="macOS app in SwiftUI" height="20">
   <img src="https://img.shields.io/badge/Studio-Electron-47848f?style=flat&logo=electron" alt="Studio on Electron" height="20">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-2563eb?style=flat" alt="Apache 2.0 license" height="20"></a>
 </p>
 
 <p align="center">
