@@ -17,6 +17,37 @@
   <a href="https://github.com/Horonomos-laps/Yana-AI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-4f80ff?style=flat-square" alt="Apache 2.0" /></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Horonomos-laps/Yana-studio/releases/latest"><img src="https://img.shields.io/github/v/release/Horonomos-laps/Yana-studio?label=release&color=8b5cf6&style=flat" alt="Latest release" height="20"></a>
+  <a href="https://github.com/Horonomos-laps/Yana-studio/actions/workflows/js-tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/Horonomos-laps/Yana-studio/js-tests.yml?branch=main&label=tests&style=flat" alt="Studio tests" height="20"></a>
+  <img src="https://img.shields.io/badge/macOS-SwiftUI-000000?style=flat&logo=apple" alt="macOS app in SwiftUI" height="20">
+  <img src="https://img.shields.io/badge/Studio-Electron-47848f?style=flat&logo=electron" alt="Studio on Electron" height="20">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-2563eb?style=flat" alt="Apache 2.0 license" height="20"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Horonomos-laps/Yana-AI"><img src="https://img.shields.io/badge/Yana--AI-runtime_and_rules-475569?style=flat" alt="Yana-AI" height="20"></a>
+  <a href="https://github.com/Horonomos-laps/yana-web"><img src="https://img.shields.io/badge/yana--web-website_and_web_app-475569?style=flat" alt="yana-web" height="20"></a>
+  <img src="https://img.shields.io/badge/Yana--studio-you_are_here-8b5cf6?style=flat" alt="Yana-studio, this repository" height="20">
+</p>
+
+<p align="center">
+  <a href="#download">Download</a> ·
+  <a href="#the-apps">The apps</a> ·
+  <a href="#build-from-source">Build</a> ·
+  <a href="#status">Status</a> ·
+  <a href="https://yana.vutam.link">Website</a>
+</p>
+
+<p align="center">
+  <sub>
+    <a href="https://github.com/Horonomos-laps/Yana-AI/blob/main/CODE_OF_CONDUCT.md">Code of conduct</a> ·
+    <a href="https://github.com/Horonomos-laps/Yana-AI/blob/main/CONTRIBUTING.md">Contributing</a> ·
+    <a href="LICENSE">Apache-2.0 license</a> ·
+    <a href="https://github.com/Horonomos-laps/Yana-AI/blob/main/SECURITY.md">Security policy</a>
+  </sub>
+</p>
+
 ## Hi, I'm Vũ Văn Tâm 🐰
 
 I'm a Vietnamese developer based in South Korea. I started building **Yana AI** at 17, on a personal laptop, with no funding and no team, around one question: **how can a coding agent work on a real machine without being handed unchecked power?**
